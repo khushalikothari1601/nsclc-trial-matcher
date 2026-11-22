@@ -1,0 +1,133 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n1. Age \\>18 years, male or female, with an Eastern Cooperative Oncology Group (ECOG) performance status of 0-1.\n2. Histologically or cytologically confirmed non-small cell lung cancer (NSCLC).\n3. Unresectable stage III NSCLC (according to the 8th edition of the AJCC staging system).\n4. No prior exposure to any other anti-tumor therapy.\n5. Absence of severe medical comorbidities or major organ dysfunction, as assessed by hematology, hepatic, renal, cardiac, and pulmonary function tests, meeting the following criteria: Hematology: Hemoglobin (HB) ≥ 90 g/L (without blood transfusion within 14 days prior to enrollment); absolute neutrophil count (ANC) ≥ 1.5 × 10⁹/L; platelet count (PLT) ≥ 100 × 10⁹/L. Biochemistry: Total bilirubin (TBIL) ≤ 1.5 × the upper limit of normal (ULN); alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; serum creatinine (Cr) ≤ 1 × ULN, with an endogenous creatinine clearance rate \\> 60 mL/min (calculated using the Cockcroft-Gault formula). Coagulation: Prothrombin time (PT)/international normalized ratio (INR) and activated partial thromboplastin time (aPTT) ≤ 1.5 × ULN (unless the patient is receiving anticoagulant therapy, in which case PT or aPTT must be within the expected therapeutic range for the anticoagulant used).\n6. Life expectancy ≥ 3 months.\n7. Adequate understanding of the study, ability to complete treatment, suitability for follow-up, and voluntary provision of written informed consent.\n\nExclusion Criteria:\n\n1. Presence of small cell carcinoma components in the histological examination results.\n2. Co-occurrence of EGFR mutation, ALK rearrangement, or ROS-1 rearrangement positivity.\n3. History of other primary malignancies, with the following exceptions: Malignancies treated with curative intent with no known active disease and low potential for recurrence for ≥5 years prior to the first dose of investigational product (IP); adequately treated non-melanoma skin cancer or lentigo maligna without evidence of disease; or adequately treated carcinoma in situ without evidence of disease.\n4. Active or documented history of autoimmune or inflammatory diseases (including inflammatory bowel disease \\[e.g., colitis or Crohn's disease\\], diverticulitis \\[excluding diverticulosis\\], systemic lupus erythematosus, sarcoidosis syndrome, granulomatosis with polyangiitis \\[Wegener's syndrome\\], Graves' disease, rheumatoid arthritis, hypophysitis, uveitis, etc.).\n5. History of allogeneic organ transplantation.\n6. History of active primary immunodeficiency.\n7. Presence of uncontrolled concurrent illness, including but not limited to persistent or active infection (including tuberculosis, hepatitis B, hepatitis C, human immunodeficiency virus \\[HIV\\], etc.), symptomatic congestive heart failure, uncontrolled hypertension, unstable angina pectoris, uncontrolled cardiac arrhythmia, active interstitial lung disease (ILD), severe chronic gastrointestinal disease associated with diarrhea, or psychiatric disorders/social situations that would limit compliance with study requirements, substantially increase the risk of adverse events (AEs), or compromise the patient's ability to provide written informed consent.\n8. Female patients who are pregnant or breastfeeding.\n9. Concurrent or prior use of immunosuppressive medication within 14 days prior to the first dose of induction immunotherapy. Exceptions include: intranasal, inhaled, or topical corticosteroids, or local corticosteroid injections (e.g., intra-articular injection); systemic corticosteroids at physiological doses not exceeding 10 mg/day of prednisone or its equivalent; corticosteroids as prophylactic premedication for hypersensitivity reactions (e.g., premedication for computed tomography \\[CT\\] scan); or systemic corticosteroid administration administered as part of chemoradiotherapy for locally advanced non-small cell lung cancer (NSCLC), or administered prophylactically or for the management of toxicity induced by chemotherapy and/or radiotherapy.\n10. Known allergy or hypersensitivity to any study drug or any excipient of a study drug.\n11. Patients judged by the investigator to be unable to comply with study procedures, restrictions, and requirements.",
+  "_source": "https://clinicaltrials.gov/study/NCT07632365",
+  "_labeler": "Khushali Kothari",
+  "_notes": "The registry age summary says 18 years and older, while the inclusion criterion specifies age >18 years. min_age_years is set to 18 based on the registry age summary, and the discrepancy is noted here. Histologically or cytologically confirmed NSCLC is included, with unresectable stage III disease specifically required. Small cell carcinoma components are excluded. EGFR mutation, ALK rearrangement, and ROS1 rearrangement positivity are excluded. No prior anti-tumor therapy is permitted, so treatment_naive_required is true and prior therapy line counts are 0. ECOG performance status must be 0–1. Numeric hematology, chemistry, renal, and coagulation thresholds are represented as structured lab criteria. Anticoagulant-related exceptions and the 14-day transfusion restriction are retained in lab details. No measurable-disease requirement or brain metastasis rule is stated.",
+  "nct_id": "NCT07632365",
+  "trial_title": "Induction Chemoimmunotherapy in Combination With Chemoradiotherapy and Consolidation Immunotherapy in Unresectable Locally Advanced Non-Small Cell Lung Cancer",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18.0,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 1,
+  "histology_included": [
+    "NSCLC"
+  ],
+  "histology_excluded": [
+    "Small cell carcinoma components"
+  ],
+  "stage_included": [
+    "III"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [
+    {
+      "gene": "EGFR",
+      "status": "excluded_if_positive",
+      "detail": "EGFR mutation positivity"
+    },
+    {
+      "gene": "ALK",
+      "status": "excluded_if_positive",
+      "detail": "ALK rearrangement positivity"
+    },
+    {
+      "gene": "ROS1",
+      "status": "excluded_if_positive",
+      "detail": "ROS-1 rearrangement positivity"
+    }
+  ],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": true,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [],
+  "brain_mets_status": null,
+  "measurable_disease_required": null,
+  "organ_function_labs": [
+    {
+      "lab_name": "Hemoglobin",
+      "operator": ">=",
+      "value": 90,
+      "unit": "g/L",
+      "detail": "No blood transfusion within 14 days prior to enrollment"
+    },
+    {
+      "lab_name": "Absolute neutrophil count",
+      "operator": ">=",
+      "value": 1.5,
+      "unit": "× 10^9/L"
+    },
+    {
+      "lab_name": "Platelet count",
+      "operator": ">=",
+      "value": 100,
+      "unit": "× 10^9/L"
+    },
+    {
+      "lab_name": "Total bilirubin",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "× ULN"
+    },
+    {
+      "lab_name": "ALT",
+      "operator": "<=",
+      "value": 2.5,
+      "unit": "× ULN"
+    },
+    {
+      "lab_name": "AST",
+      "operator": "<=",
+      "value": 2.5,
+      "unit": "× ULN"
+    },
+    {
+      "lab_name": "Serum creatinine",
+      "operator": "<=",
+      "value": 1,
+      "unit": "× ULN"
+    },
+    {
+      "lab_name": "Creatinine clearance",
+      "operator": ">",
+      "value": 60,
+      "unit": "mL/min",
+      "detail": "Calculated using the Cockcroft-Gault formula"
+    },
+    {
+      "lab_name": "PT/INR",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "× ULN",
+      "detail": "For patients receiving anticoagulant therapy, PT/INR must be within the expected therapeutic range for the anticoagulant used"
+    },
+    {
+      "lab_name": "aPTT",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "× ULN",
+      "detail": "For patients receiving anticoagulant therapy, aPTT must be within the expected therapeutic range for the anticoagulant used"
+    }
+  ],
+  "unstructured_inclusion": [
+    "Unresectable stage III NSCLC according to the 8th edition of the AJCC staging system.",
+    "Life expectancy ≥3 months.",
+    "Adequate understanding of the study, ability to complete treatment, suitability for follow-up, and voluntary provision of written informed consent."
+  ],
+  "unstructured_exclusion": [
+    "History of other primary malignancies is exclusionary unless treated with curative intent with no known active disease and low recurrence potential for at least 5 years before the first dose, or unless adequately treated non-melanoma skin cancer, lentigo maligna, or carcinoma in situ without evidence of disease.",
+    "Active or documented history of autoimmune or inflammatory disease, including inflammatory bowel disease, diverticulitis (excluding diverticulosis), systemic lupus erythematosus, sarcoidosis syndrome, granulomatosis with polyangiitis, Graves' disease, rheumatoid arthritis, hypophysitis, and uveitis.",
+    "History of allogeneic organ transplantation.",
+    "History of active primary immunodeficiency.",
+    "Uncontrolled concurrent illness, including persistent or active infection (including tuberculosis, hepatitis B, hepatitis C, or HIV), symptomatic congestive heart failure, uncontrolled hypertension, unstable angina, uncontrolled arrhythmia, active ILD, severe chronic gastrointestinal disease associated with diarrhea, or psychiatric/social circumstances affecting compliance, increasing AE risk, or compromising informed consent.",
+    "Pregnancy or breastfeeding.",
+    "Concurrent or prior immunosuppressive medication within 14 days before the first dose of induction immunotherapy. Exceptions include intranasal, inhaled, topical, or locally injected corticosteroids; systemic corticosteroids at physiological doses not exceeding 10 mg/day prednisone equivalent; prophylactic corticosteroids for hypersensitivity reactions; and corticosteroids given as part of chemoradiotherapy or for prevention or management of chemotherapy- or radiotherapy-induced toxicity.",
+    "Known allergy or hypersensitivity to any study drug or its excipients.",
+    "Investigator judgment that the patient cannot comply with study procedures, restrictions, or requirements."
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

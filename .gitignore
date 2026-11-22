@@ -1,0 +1,18 @@
+.env
+data/*.sqlite3
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store
+*.tmp
+
+# local working folders
+files/
+deliverable/
+eval/files2/
+eval/files2.zip
+eval/escape.py
+*.bak
+eval/gold_retired/
+eval/gold_backup*/

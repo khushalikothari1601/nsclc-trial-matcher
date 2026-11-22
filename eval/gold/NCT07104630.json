@@ -1,0 +1,60 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n* Participants must have histologically confirmed NSCLC, Stages III or IV treated with palliative intent\n* Adults \u2265 18 years of age\n* ECOG performance status \u2264 3\n* Clinical stability: defined as no clinical/radiographic progression within the last three months\n* Self-reported dyspnea, defined as score \u2265 2 on the modified Medical Research Council (mMRC) Dyspnea Scale\n* Participants must be fluent in written and spoken English\n\nExclusion Criteria:\n\n* Participants being treated with curative intent for locally advanced NSCLC or oligometastatic NSCLC with concurrent chemotherapy and radiation will be excluded\n* Participants have evidence of clinical and/or radiographic progression\n* Mental impairment leading to inability to complete study requirements\n* High risk of fracture or spine instability (Mirels score \u22657 or SINS \u22657)\n* Any of the following cardiac exclusion criteria:\n\n  * Class II, III or IV heart failure as defined by the New York Heart Association (NYHA) functional classification system\n  * History of acute coronary syndromes (including myocardial infarction and unstable angina), coronary angioplasty or stenting within the past 6 months prior to the start of radiation therapy\n  * Uncontrolled arrhythmias; individuals with rate-controlled atrial fibrillation for \\> 1 month prior to start of radiation therapy may be eligible\n  * Syncope\n  * Acute myocarditis, pericarditis, or endocarditis\n  * Acute pulmonary embolus or pulmonary infarction within the last 3 months\n  * Acute thrombosis of lower extremities within the last 3 months\n  * Suspected dissecting aneurysm\n  * Pulmonary edema\n  * Respiratory failure\n  * Acute non-cardiopulmonary disorder that may affect exercise performance or be aggravated by exercise",
+  "_source": "https://clinicaltrials.gov/study/NCT07104630",
+  "_labeler": "Khushali Kothari",
+  "_notes": "Eligibility requires histologically confirmed NSCLC, stage III or IV, treated with palliative intent. Participants must be clinically stable, defined as having no clinical or radiographic progression within the last 3 months, and must report dyspnea with an mMRC score of at least 2. ECOG performance status may be up to 3. Participants must be fluent in written and spoken English. Curative-intent locally advanced or oligometastatic NSCLC treated with concurrent chemotherapy and radiation is excluded. No specific histologic subtype, biomarker, PD-L1 expression, prior systemic therapy line count, or measurable disease requirement is specified. Brain metastasis eligibility is not addressed. Cardiac, thromboembolic, fracture-risk, and spine-instability exclusions are recorded separately. Healthy volunteers are not eligible because confirmed NSCLC is required.",
+  "nct_id": "NCT07104630",
+  "trial_title": "Pulmonary Rehabilitation in Advanced Lung Cancer Survivors",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18.0,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 3,
+  "histology_included": [
+    "Non-small cell lung cancer (NSCLC), histologically confirmed"
+  ],
+  "histology_excluded": [],
+  "stage_included": [
+    "Stage III NSCLC treated with palliative intent",
+    "Stage IV NSCLC treated with palliative intent"
+  ],
+  "stage_excluded": [
+    "Locally advanced NSCLC treated with curative intent",
+    "Oligometastatic NSCLC treated with curative intent using concurrent chemotherapy and radiation"
+  ],
+  "biomarkers": [],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": null,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [],
+  "brain_mets_status": null,
+  "measurable_disease_required": null,
+  "organ_function_labs": [],
+  "unstructured_inclusion": [
+    "Clinically stable, defined as no clinical or radiographic progression within the last 3 months",
+    "Self-reported dyspnea with a modified Medical Research Council (mMRC) Dyspnea Scale score of at least 2",
+    "Fluent in written and spoken English"
+  ],
+  "unstructured_exclusion": [
+    "Evidence of clinical and/or radiographic disease progression",
+    "Mental impairment that prevents completion of study requirements",
+    "High risk of fracture (Mirels score >=7)",
+    "Spinal instability (SINS score >=7)",
+    "NYHA Class II, III, or IV heart failure",
+    "Acute coronary syndrome, including myocardial infarction or unstable angina, coronary angioplasty, or coronary stenting within 6 months before the start of radiation therapy",
+    "Uncontrolled arrhythmias; rate-controlled atrial fibrillation for more than 1 month before radiation therapy may be eligible",
+    "Syncope",
+    "Acute myocarditis, pericarditis, or endocarditis",
+    "Acute pulmonary embolus or pulmonary infarction within the last 3 months",
+    "Acute lower-extremity thrombosis within the last 3 months",
+    "Suspected dissecting aneurysm",
+    "Pulmonary edema",
+    "Respiratory failure",
+    "Acute non-cardiopulmonary disorder that may affect exercise performance or be aggravated by exercise"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

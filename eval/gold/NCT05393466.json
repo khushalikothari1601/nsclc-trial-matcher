@@ -1,0 +1,107 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years and older.\nSexes Eligible for Study: All.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\nMale or female >= 18 years old;\nLife expectancy >= 12 weeks;\nEastern Cooperative Oncology Group (ECOG) performance status 0-1;\nPatients with histologically or cytologically confirmed diagnosis of inoperable locally advanced or recurrent/metastatic NSCLC with EGFR mutations. Patients must have progressed from or be intolerant to or be unfit for standard treatment.\nFor dose escalation: patients with documented EGFR mutation that have progressed on or after third-generation EGFR-TKI. In addition, other lines of therapy may have been given.\nFor dose expansion and Phase II: patients with EGFR C797S mutation confirmed prior to enrollment on tissue or blood samples with radiological documentation of disease progression from first-generation, second-generation or third-generation EGFR-TKIs. In addition, other lines of therapy may have been given;\nFor dose expansion and Phase II, patients must have at least one measurable tumor lesion per RECIST v1.1 criteria as per Investigator's assessment;\nAdequate bone marrow, liver, and renal function:\nBlood: Absolute neutrophil count (ANC) >= 1.5 x 10^9/L, platelets count >= 100 x 10^9/L, hemoglobin >= 9 g/dL (must not have received transfusion or granulocyte colony-stimulating factor within 2 weeks of screening);\nLiver function: total bilirubin <= 1.5 x ULN; ALT and AST <= 3.0 x ULN; if liver metastases exist, AST and ALT <= 5.0 x ULN; for documented Gilbert's syndrome, total bilirubin <= 3.0 x ULN;\nRenal function: eGFR >= 50 mL/min (CKD-EPI);\nAll acute toxic effects of any prior antitumor therapy or surgery resolved to baseline or <= CTCAE Grade 1 (except alopecia);\nFor women of childbearing potential, negative serum pregnancy test within 7 days before dosing, non-lactating; contraception throughout treatment and 3 months after last dose;\nMen with partners of childbearing potential willing to use adequate contraception during study and 90 days after last dose;\nPatients must have signed informed consent form.\n\nExclusion Criteria:\nPresence of another active primary malignant tumor;\nUnstable, symptomatic primary CNS tumors/metastasis or leptomeningeal metastases not suitable for enrollment; a patient may enroll if clinically stable, no imaging progression within 2 weeks prior to first dose, and off corticosteroid/anticonvulsant/mannitol for longer than 2 weeks prior to first dose;\nTreatment with most recent therapy (chemotherapy, immunotherapy, targeted therapy, radiation, investigational agent) within 4 weeks or approximately 5 half-lives, whichever is longer, before first dose;\nGastrointestinal disorders affecting oral swallowing or drug absorption;\nUse of strong or moderate CYP3A inhibitors or inducers within 7 days prior to first dose;\nAutologous (within 3 months) or allogeneic (within 6 months) organ or stem cell transplantation prior to first dose; any major surgery or severe trauma (except biopsy) within 4 months prior to first dose;\nPalliative radiation therapy within 2 weeks prior to first dose;\nActive viral hepatitis B (exception: HBV DNA <= 500 IU/mL stable longer than 4 weeks);\nActive infection requiring systemic therapy within 1 week prior to first dose;\nCardiac conditions within the last 6 months: unexplained/cardiovascular presyncope or syncope, tachycardia, ventricular fibrillation, sudden cardiac arrest; prolonged QTcF > 450 msec (males) or > 470 msec (females);\nAny > CTCAE Grade 1 toxicity prior to first dose;\nMedical history of interstitial lung disease, drug-induced ILD, radiation pneumonitis requiring steroids, or clinically active ILD, any uncontrolled systemic disease, or other serious illnesses;\nDeep venous thrombosis, pulmonary embolism, or other serious thromboembolism within 3 months prior to first dose (implantable port, catheter-related, or superficial venous thrombosis not considered serious);\nPresence of drug abuse and medical, psychological, or social conditions that do not permit protocol compliance.",
+  "_source": "https://clinicaltrials.gov/study/NCT05393466",
+  "_labeler": "Khushali Kothari",
+  "_notes": "COHORT-SPECIFIC TRIAL: criteria differ by cohort (dose escalation vs dose expansion/Phase II). Labeled only criteria common to ALL patients as structured; cohort-specific ones kept in unstructured. EGFR mutation required for everyone -> biomarkers EGFR required_positive. C797S mutation and measurable-disease requirement apply ONLY to dose expansion/Phase II -> unstructured_inclusion, not structured (measurable_disease_required left null because it is not universal; the C797S detail is cohort-specific so not folded into the EGFR requirement). No max age stated -> max_age_years null. Labs: ANC>=1.5, platelets>=100, hemoglobin>=9, total bilirubin<=1.5xULN, ALT<=3xULN, AST<=3xULN, eGFR>=50. Bilirubin/ALT/AST use x ULN and conditional (liver-mets, Gilbert's) variants -> labeled the base threshold, conditional variants noted in unstructured. Removed broken 'section Error! Reference source not found.' cross-reference from source text.",
+  "nct_id": "NCT05393466",
+  "trial_title": "BPI-361175 Tablets in Patients With Advanced Non-Small Cell Lung Cancer (NSCLC)",
+  "overall_status": "NOT YET RECRUITING",
+  "min_age_years": 18,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 1,
+  "histology_included": [],
+  "histology_excluded": [],
+  "stage_included": [],
+  "stage_excluded": [],
+  "biomarkers": [
+    {
+      "gene": "EGFR",
+      "status": "required_positive",
+      "detail": "EGFR mutation; C797S specifically required for dose-expansion/Phase II cohort only"
+    }
+  ],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": null,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [],
+  "brain_mets_status": "treated_stable",
+  "measurable_disease_required": null,
+  "organ_function_labs": [
+    {
+      "lab_name": "ANC",
+      "operator": ">=",
+      "value": 1.5,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "platelets",
+      "operator": ">=",
+      "value": 100,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "hemoglobin",
+      "operator": ">=",
+      "value": 9,
+      "unit": "g/dL"
+    },
+    {
+      "lab_name": "total bilirubin",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "ALT",
+      "operator": "<=",
+      "value": 3.0,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "AST",
+      "operator": "<=",
+      "value": 3.0,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "eGFR",
+      "operator": ">=",
+      "value": 50,
+      "unit": "mL/min"
+    }
+  ],
+  "unstructured_inclusion": [
+    "NSCLC must be inoperable locally advanced or recurrent/metastatic; patient progressed from, intolerant to, or unfit for standard treatment",
+    "Life expectancy >= 12 weeks",
+    "Dose escalation cohort: documented EGFR mutation progressed on/after third-generation EGFR-TKI",
+    "Dose expansion/Phase II cohort: EGFR C797S mutation confirmed on tissue or blood, with radiological progression from first/second/third-generation EGFR-TKIs",
+    "Dose expansion/Phase II cohort: at least one measurable lesion per RECIST v1.1",
+    "Conditional liver thresholds: if liver metastases, AST/ALT <= 5.0 x ULN; if Gilbert's syndrome, total bilirubin <= 3.0 x ULN",
+    "Acute toxic effects of prior therapy/surgery resolved to baseline or <= CTCAE Grade 1 (except alopecia)",
+    "Women of childbearing potential: negative serum pregnancy test within 7 days, non-lactating, contraception through treatment + 3 months after last dose",
+    "Men with partners of childbearing potential: adequate contraception during study + 90 days after last dose",
+    "Signed informed consent"
+  ],
+  "unstructured_exclusion": [
+    "Another active primary malignant tumor",
+    "Unstable/symptomatic primary CNS tumors, metastases, or leptomeningeal metastases (may enroll if stable, no progression within 2 weeks, off corticosteroid/anticonvulsant/mannitol > 2 weeks before first dose)",
+    "Most recent antitumor therapy within 4 weeks or ~5 half-lives (whichever longer) before first dose",
+    "Gastrointestinal disorders affecting oral swallowing or drug absorption",
+    "Strong or moderate CYP3A inhibitors or inducers within 7 days before first dose",
+    "Autologous (within 3 months) or allogeneic (within 6 months) organ/stem cell transplant; major surgery or severe trauma (except biopsy) within 4 months before first dose",
+    "Palliative radiation within 2 weeks before first dose",
+    "Active viral hepatitis B (exception: HBV DNA <= 500 IU/mL, stable > 4 weeks)",
+    "Active infection requiring systemic therapy within 1 week before first dose",
+    "Cardiac conditions within last 6 months (presyncope/syncope, tachycardia, ventricular fibrillation, sudden cardiac arrest; QTcF > 450 msec male / > 470 msec female)",
+    "Any > CTCAE Grade 1 toxicity before first dose",
+    "History of interstitial lung disease, drug-induced ILD, radiation pneumonitis requiring steroids, clinically active ILD, uncontrolled systemic disease, or other serious illness",
+    "Deep venous thrombosis, pulmonary embolism, or other serious thromboembolism within 3 months before first dose (port/catheter-related/superficial not counted)",
+    "Drug abuse or medical/psychological/social conditions preventing protocol compliance"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

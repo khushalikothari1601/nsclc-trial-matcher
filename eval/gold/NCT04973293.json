@@ -1,0 +1,62 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to 75 Years.\nSexes Eligible for Study: All.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\nHistologically or cytologically confirmed, previously untreated and surgically resectable non-small cell lung cancer (stage II-IIIA, patients with squamous cell carcinoma or EGFR mutation should not be included);\nEastern Cooperative Oncology Group (ECOG) performance status 0-1;\nSatisfactory preoperative laboratory testing and adequate pulmonary function for surgery;\nPatients approve and sign the informed consent.\n\nExclusion Criteria:\nPancoast tumor, squamous cell carcinoma, large-cell carcinoma and sarcomatoid carcinoma;\nPatients with active autoimmune disease or history of autoimmune disease;\nPatients who have a condition requiring systemic treatment with either prednisone or other immunosuppressive medications;\nPatients with a history of symptomatic interstitial lung disease;\nHistory of allergy to study drug components;\nWomen must not be pregnant or breast-feeding;\nMen with female partners that are not willing to use contraception;\nPatients who have received prior chemotherapy, anti-angiogenesis therapy and immunotherapy for this malignancy or for any other past malignancy;\nPatients who have received prior treatment for non-small cell lung cancer;\nAny mental or psychological condition which would not permit the patient to complete the study or understand the patient information;\nPatients who have major hemoptysis within the past 4 weeks, tumor has invasion or is close to great vessels;\nPatients with high risk of major bleeding;\nPatients who have arterial thrombotic events, esophageal varices, peptic ulcers, wounds or bone fractures;\nPatients who have prior malignancies;\nHIV, HBV, HCV infection or active pulmonary tuberculosis;\nUnderlying medical conditions that, in the Investigator's opinion, will make the administration of study drug hazardous or obscure the interpretation of toxicity or adverse events.",
+  "_source": "https://clinicaltrials.gov/study/NCT04973293",
+  "_labeler": "Khushali Kothari",
+  "_notes": "Stage written as range 'II-IIIA' -> labeled [II, IIIA]. EGFR mutation excludes -> excluded_if_positive. Squamous appears in both inclusion and exclusion text but captured once in histology_excluded, not duplicated in unstructured. Large-cell -> large_cell (in enum); Pancoast and sarcomatoid not in histology enum -> histology_excluded. Prior-therapy exclusions captured via treatment_naive_required=true rather than excluded_prior_treatments. Age/sex from CTgov structured fields, added to raw text since pipeline feeds them to the parser.",
+  "nct_id": "NCT04973293",
+  "trial_title": "Preoperative Sintilimab Combined With Bevacizumab and Chemotherapy for Resectable Non-Small Cell Lung Cancer",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18,
+  "max_age_years": 75,
+  "sex": "all",
+  "ecog_max": 1,
+  "histology_included": [],
+  "histology_excluded": [
+    "squamous",
+    "large_cell",
+    "Pancoast tumor",
+    "sarcomatoid carcinoma"
+  ],
+  "stage_included": [
+    "II",
+    "IIIA"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [
+    {
+      "gene": "EGFR",
+      "status": "excluded_if_positive"
+    }
+  ],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": true,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [],
+  "brain_mets_status": null,
+  "measurable_disease_required": null,
+  "organ_function_labs": [],
+  "unstructured_inclusion": [
+    "Adequate preoperative laboratory testing and pulmonary function for surgery",
+    "Patient approves and signs informed consent"
+  ],
+  "unstructured_exclusion": [
+    "Active autoimmune disease or history of autoimmune disease",
+    "Condition requiring systemic treatment with prednisone or other immunosuppressive medication",
+    "History of symptomatic interstitial lung disease",
+    "History of allergy to study drug components",
+    "Pregnant or breast-feeding",
+    "Men with female partners unwilling to use contraception",
+    "Prior malignancies",
+    "Mental or psychological condition preventing study completion or comprehension",
+    "Major hemoptysis within the past 4 weeks, or tumor invasion of / proximity to great vessels",
+    "High risk of major bleeding",
+    "Arterial thrombotic events, esophageal varices, peptic ulcers, wounds or bone fractures",
+    "HIV, HBV, HCV infection or active pulmonary tuberculosis",
+    "Underlying medical conditions that, per investigator opinion, make study drug administration hazardous or obscure toxicity interpretation"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

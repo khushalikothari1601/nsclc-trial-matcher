@@ -1,0 +1,64 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\nThe main inclusion criteria include but are not limited to the following:\n\n* Has histologically or cytologically confirmed diagnosis of advanced or metastatic non-squamous non-small cell lung cancer (NSCLC)\n* Has tumor tissue or circulating tumor deoxyribonucleic acid (ctDNA) that demonstrates the presence of Kirsten rat sarcoma viral oncogene (KRAS) mutation of glycine to cysteine at codon 12 (G12C) mutations\n* Has documented disease progression after receiving 1-2 prior lines of programmed cell death protein 1 (PD-1)/programmed death-ligand 1 (PD-L1) therapy and platinum-based chemotherapy\n* Has provided tumor tissue for biomarker analysis from an archival sample or a newly obtained core or excisional biopsy of a tumor lesion not previously irradiated\n* Participants with human immunodeficiency virus (HIV) infection must have well-controlled HIV on antiretroviral therapy (ART) per protocol\n\nExclusion Criteria:\n\nThe main exclusion criteria include but are not limited to the following:\n\n* Has a diagnosis of small cell lung cancer or, for mixed tumors, presence of small cell elements\n* Has clinically severe pulmonary compromise resulting from intercurrent pulmonary illnesses\n* Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis\n* Has active inflammatory bowel disease requiring immunosuppressive medication or previous history of inflammatory bowel disease\n* Has evidence of any leptomeningeal disease\n* Has uncontrolled or significant cardiovascular disorder or cerebrovascular disease prior to allocation/randomization\n* Has one or more of the following ophthalmological conditions: a) Clinically significant corneal disease b) history of documented severe dry eye syndrome, severe Meibomian gland disease and/or blepharitis\n* HIV-infected participants with a history of Kaposi's sarcoma and/or Multicentric Castleman's Disease\n* Has received a live or live-attenuated vaccine within 30 days before the first dose of study intervention\n* Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of study intervention\n* Has known additional malignancy that is progressing or has required active treatment within the past 3 years\n* Has any history of interstitial lung disease (ILD)/pneumonitis irrespective of steroid use or current ILD, or suspected ILD\n* Has an active infection requiring systemic therapy\n* Has not adequately recovered from major surgery or has ongoing surgical complications",
+  "_source": "https://clinicaltrials.gov/study/NCT07286149",
+  "_labeler": "Khushali Kothari",
+  "_notes": "Advanced or metastatic non-squamous NSCLC is included; no specific TNM stage is stated, so stage fields remain empty. KRAS G12C is required. The exclusion of small cell lung cancer and mixed tumors with small cell elements is represented under histology_excluded. Participants must have received 1-2 prior lines of PD-1/PD-L1 therapy and platinum-based chemotherapy; the source does not clarify whether these are separate lines or whether both treatments must have been given within each line, so the stated range is recorded and the treatment requirements are preserved. Active CNS metastases and carcinomatous meningitis are excluded; the source does not explicitly address previously treated, stable brain metastases. HIV infection is permitted only when well controlled on ART per protocol, but HIV-infected participants with a history of Kaposi's sarcoma or Multicentric Castleman's Disease are excluded. No ECOG or numeric organ-function thresholds are provided.",
+  "nct_id": "NCT07286149",
+  "trial_title": "A Clinical Study of MK-1084 With Other Treatments for Non-small Cell Lung Cancer (MK-3475-01F)",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": null,
+  "histology_included": [
+    "non-squamous NSCLC"
+  ],
+  "histology_excluded": [
+    "small cell lung cancer",
+    "mixed tumors with small cell elements"
+  ],
+  "stage_included": [],
+  "stage_excluded": [],
+  "biomarkers": [
+    {
+      "gene": "KRAS_G12C",
+      "status": "required_positive",
+      "detail": "KRAS G12C mutation demonstrated in tumor tissue or circulating tumor DNA (ctDNA)"
+    }
+  ],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": 1,
+  "prior_therapy_lines_max": 2,
+  "treatment_naive_required": null,
+  "required_prior_treatments": [
+    "PD-1/PD-L1 therapy",
+    "Platinum-based chemotherapy"
+  ],
+  "excluded_prior_treatments": [],
+  "brain_mets_status": "treated_stable",
+  "measurable_disease_required": null,
+  "organ_function_labs": [],
+  "unstructured_inclusion": [
+    "Documented disease progression after receiving 1-2 prior lines of PD-1/PD-L1 therapy and platinum-based chemotherapy.",
+    "Tumor tissue must be provided for biomarker analysis from an archival sample or a newly obtained core or excisional biopsy of a tumor lesion not previously irradiated.",
+    "Participants with HIV infection must have well-controlled HIV on antiretroviral therapy (ART) per protocol."
+  ],
+  "unstructured_exclusion": [
+    "Clinically severe pulmonary compromise resulting from intercurrent pulmonary illnesses.",
+    "Active CNS metastases and/or carcinomatous meningitis are excluded.",
+    "Active inflammatory bowel disease requiring immunosuppressive medication or any previous history of inflammatory bowel disease.",
+    "Any evidence of leptomeningeal disease.",
+    "Uncontrolled or significant cardiovascular disorder or cerebrovascular disease prior to allocation/randomization.",
+    "Clinically significant corneal disease; history of documented severe dry eye syndrome, severe Meibomian gland disease and/or blepharitis.",
+    "HIV-infected participants with a history of Kaposi's sarcoma and/or Multicentric Castleman's Disease.",
+    "Live or live-attenuated vaccine within 30 days before the first dose of study intervention.",
+    "Diagnosis of immunodeficiency or chronic systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of study intervention.",
+    "Known additional malignancy that is progressing or has required active treatment within the past 3 years.",
+    "Any history of interstitial lung disease (ILD)/pneumonitis irrespective of steroid use, current ILD, or suspected ILD.",
+    "Active infection requiring systemic therapy.",
+    "Not adequately recovered from major surgery or ongoing surgical complications."
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

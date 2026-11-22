@@ -1,0 +1,142 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n1. Patients must understand the requirements and content of the clinical trial and provide a handwritten signed and dated informed consent.\n2. Age ≥ 18 years old.\n3. Non-small cell lung cancer confirmed by histopathology or cytology, clinical stage II, IIIA or IIIB (N2) assessed by the investigator according to AJCC 8th edition.\n4. EGFR exon 20 insertion mutation confirmed by an approved local laboratory.\n5. No disease progression in the past two weeks of signing the informed consent form and a score of 0-1 according to the ECOG criteria, and no significant progression within 2 weeks before the first dose.\n6. At least one measurable target lesion according to RECIST v1.1.\n7. Adequate bone marrow and other organ reserve:\n\n   * Absolute neutrophil count (ANC) ≥ 1.5 × 109/L\n   * Platelets ≥ 100 × 109/L\n   * Hemoglobin ≥ 9 g/dL\n   * Total bilirubin ≤ 1.5 ×ULN; in patients with Gilbert syndrome, total bilirubin ≤ 3 × ULN\n   * ALT≤ 2.5 × ULN and AST≤ 2.5 × ULN\n   * Creatinine ≤ 1.5 × ULN, and creatinine clearance calculated the Cockcroft-Gault method ≥ 60 mL/min\n   * International normalized ratio (INR) ≤ 1.5 × ULN\n   * Partial thromboplastin time (APTT) ≤ 1.5 × ULN\n8. Male patients who wish to have children should use barrier contraception (such as condoms) during the clinical trial period and 6 months after the last dose. Male patients should not donate sperm during the clinical trial period and 6 months after the last dose.\n9. Female patients should take contraceptive measures from the start of screening to the 6 weeks after last dose, should not breastfeed, and should have a negative pregnancy test (blood or urine β-human chorionic gonadotropin) at screening.\n\nExclusion Criteria:\n\n1. Patients who have received the following treatments must be excluded:\n\n   * Any systemic anti-tumor treatment, including radiotherapy;\n   * Other drugs in the development stage, if the medication does not exceed 28 days and has not undergone any tumor assessment, the medication must be stopped for more than 5 half-lives and the patient can be enrolled after consultation with the investigator.\n   * Traditional Chinese medicine and other drugs with strong P450 (CYP)3A4 inhibitory or inducing effects are currently being used or cannot be stopped. There must be a washout period of at least 1 week before the first dose.\n2. A history of other malignant tumors other than lung cancer within 2 years (except for basal cell carcinoma of the skin or in situ cervical cancer that has been adequately treated and has no evidence of recurrence during the screening period).\n3. Before the first dose, there are adverse events of CTCAE \\> 1 grade (except for any degree of alopecia) caused by previous treatment (such as diagnostic puncture, use of other drugs, etc.).\n4. History of stroke or intracranial hemorrhage within 6 months before the first dose.\n5. According to the investigator's judgment, the presence of any severe or poorly controlled systemic disease, including any of the following poorly controlled heart-related diseases or abnormalities:\n\n   * The resting electrocardiogram shows a calibrated QTc interval (QTcF) \\> 470 msec\n   * The resting electrocardiogram shows any serious abnormalities in heart rhythm, conduction or pattern, such as complete left bundle branch block, third-degree heart block, second-degree heart block, PR interval \\> 250 msec\n   * Any factors that can cause QTcF prolongation or arrhythmia, such as heart failure, hypokalemia, congenital long QT syndrome, family history of QT syndrome or other sudden death diseases under 40 years old, or other diseases known to cause QT prolongation\n   * Suffering from atrial fibrillation (except for drug-induced and recovered after discontinuation of the drug)\n   * Myocardial infarction within 6 months before the first dose, New York Heart Association grade 2 congestive heart failure, or arrhythmias that are not well controlled by drugs\n6. Patients with a history of interstitial lung disease, drug-induced interstitial lung disease, radiation pneumonitis requiring steroid hormone treatment, or any clinically active interstitial lung disease, or immune pneumonitis caused by immunotherapy.\n7. Patients with refractory nausea and vomiting, chronic gastrointestinal diseases, difficulty in swallowing medication, or previous intestinal resection that prevents adequate absorption of sunvozertinib.\n8. Women who are breastfeeding or pregnant.\n9. Patients who are allergic to the drug components of sunvozertinib.\n10. Patients who are assessed by the investigator as being unable to undergo clinical trials, unable to tolerate surgery, or who may lack compliance with clinical trials should not participate in this study.",
+  "_source": "https://clinicaltrials.gov/study/NCT06864624",
+  "_labeler": "Khushali Kothari",
+  "_notes": "Judgment calls: This is a perioperative sunvozertinib study in histologically or cytologically confirmed NSCLC with EGFR exon 20 insertion mutations. Eligible stages are AJCC 8th edition stages II, IIIA, and IIIB (N2). ECOG performance status must be 0–1. EGFR exon 20 insertion is required and must be confirmed by an approved local laboratory. Prior systemic anticancer treatment, including radiotherapy, is excluded; therefore, treatment_naive_required is true and prior therapy lines are set to 0. Measurable disease is required according to RECIST v1.1. No specific NSCLC histological subtype restriction is stated. Brain metastases are not explicitly addressed. Organ function thresholds are explicitly specified and recorded. The protocol describes a perioperative setting but does not separately specify surgery eligibility criteria in the provided text. Manual review is recommended because prior treatment restrictions and the interpretation of the stage IIIB (N2) population should be checked against the full protocol.",
+  "nct_id": "NCT06864624",
+  "trial_title": "Perioperative Treatment of Sunvozertinib in Stage II-IIIB NSCLC",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18.0,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 1,
+  "histology_included": [
+    "non-small cell lung cancer (NSCLC)"
+  ],
+  "histology_excluded": [],
+  "stage_included": [
+    "Stage II (AJCC 8th edition)",
+    "Stage IIIA (AJCC 8th edition)",
+    "Stage IIIB with N2 involvement (AJCC 8th edition)"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [
+    {
+      "gene": "EGFR",
+      "status": "required_positive",
+      "detail": "exon 20 insertion"
+    }
+  ],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": true,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [
+    "Prior radiotherapy"
+  ],
+  "brain_mets_status": null,
+  "measurable_disease_required": true,
+  "organ_function_labs": [
+    {
+      "lab_name": "ANC",
+      "operator": ">=",
+      "value": 1.5,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "platelets",
+      "operator": ">=",
+      "value": 100,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "hemoglobin",
+      "operator": ">=",
+      "value": 9,
+      "unit": "g/dL"
+    },
+    {
+      "lab_name": "total bilirubin",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "ALT",
+      "operator": "<=",
+      "value": 2.5,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "AST",
+      "operator": "<=",
+      "value": 2.5,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "creatinine",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "creatinine clearance",
+      "operator": ">=",
+      "value": 60,
+      "unit": "mL/min"
+    },
+    {
+      "lab_name": "INR",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "APTT",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "x ULN"
+    }
+  ],
+  "unstructured_inclusion": [
+    "Patients must understand the clinical trial requirements and provide handwritten, signed, and dated informed consent",
+    "Histologically or cytologically confirmed NSCLC",
+    "Clinical stage II, IIIA, or IIIB (N2) according to AJCC 8th edition",
+    "No disease progression during the 2 weeks before signing informed consent",
+    "No significant disease progression within 2 weeks before the first dose",
+    "Male participants who wish to have children must use barrier contraception, such as condoms, during the study and for 6 months after the last dose",
+    "Male participants must not donate sperm during the study and for 6 months after the last dose",
+    "Female participants must use contraception from screening through 6 weeks after the last dose",
+    "Female participants must not breastfeed",
+    "Female participants must have a negative blood or urine beta-human chorionic gonadotropin (β-hCG) pregnancy test at screening",
+    "EGFR exon 20 insertion mutation confirmed by an approved local laboratory",
+    "With Gilbert syndrome: total bilirubin <=3 x ULN permitted"
+  ],
+  "unstructured_exclusion": [
+    "Other malignancies within 2 years before enrollment, except adequately treated basal cell carcinoma of the skin or in situ cervical cancer without evidence of recurrence during screening",
+    "Previous treatment-related adverse events greater than Grade 1 according to CTCAE before the first dose, except alopecia",
+    "History of stroke or intracranial hemorrhage within 6 months before the first dose",
+    "Severe or poorly controlled systemic diseases considered unsuitable by the investigator",
+    "Resting ECG QTcF >470 milliseconds",
+    "Serious cardiac rhythm, conduction, or morphological abnormalities, including complete left bundle branch block, third-degree heart block, second-degree heart block, or PR interval >250 milliseconds",
+    "Factors increasing risk of QTcF prolongation or arrhythmia, including heart failure, hypokalemia, congenital long QT syndrome, family history of long QT syndrome or sudden death before age 40, or other conditions associated with QT prolongation",
+    "Atrial fibrillation, except drug-induced atrial fibrillation that resolved after discontinuation of the causative medication",
+    "Myocardial infarction within 6 months before the first dose",
+    "NYHA class II congestive heart failure",
+    "Arrhythmias not adequately controlled with medication",
+    "History of interstitial lung disease, drug-induced interstitial lung disease, radiation pneumonitis requiring steroid treatment, clinically active interstitial lung disease, or immunotherapy-induced pneumonitis",
+    "Refractory nausea or vomiting, chronic gastrointestinal disease, difficulty swallowing medication, or previous intestinal resection that prevents adequate absorption of sunvozertinib",
+    "Pregnancy or breastfeeding",
+    "Known allergy to the components of sunvozertinib",
+    "Investigator-determined inability to participate in the clinical trial, inability to tolerate surgery, or likely noncompliance",
+    "Any systemic antitumor treatment, including radiotherapy, before study enrollment",
+    "Current use of strong CYP3A4 inhibitors or inducers that cannot be discontinued with the required washout",
+    "Use of investigational drugs without meeting the specified washout and investigator consultation requirements",
+    "Other investigational drugs within the specified washout period, unless the exception for treatment duration ≤28 days, no tumor assessment, washout exceeding 5 half-lives, and investigator consultation is satisfied",
+    "Traditional Chinese medicine or other medications with strong CYP3A4 inhibitory or inducing effects that cannot be discontinued; a washout period of at least 1 week is required before the first dose"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

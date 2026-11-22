@@ -1,0 +1,61 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n* Histologically confirmed diagnosis of ALK/ROS1-positive non-small cell lung cancer (NSCLC), stage IIIB/IV.\n* Currently receiving lorlatinib as part of the standard therapeutic regimen.\n* Documented neurocognitive adverse events (NAEs) attributable to lorlatinib.\n* Age \\>= 18 years.\n* ECOG performance status 0-2.\n* Ability to understand and sign informed consent.\n* Expected survival \\>= 6 months.\n* Planned initiation of vortioxetine as part of standard care.\n* Ability to complete neuropsychological tests and questionnaires in Spanish.\n\nExclusion Criteria:\n\n* Prior diagnosis of major cognitive impairment unrelated to cancer treatment.\n* Current use of another antidepressant that cannot be discontinued.\n* Uncontrolled major psychiatric disorder.\n* History of uncontrolled epilepsy or recent seizures.\n* Severe hepatic or renal impairment.\n* Known hypersensitivity to vortioxetine.\n* Participation in another clinical trial within the past 30 days.\n* Inability to provide informed consent.\n* Life expectancy \\< 3 months.\n* Contraindications to vortioxetine (e.g., concomitant MAOI use).\n* Prior vortioxetine use.\n* Severe psychiatric disorders or significant cognitive impairment unrelated to lorlatinib.",
+  "_source": "https://clinicaltrials.gov/study/NCT07633626",
+  "_labeler": "Khushali Kothari",
+  "_notes": "ALK and ROS1 alterations are both labeled required positive because the eligibility criteria specify ALK/ROS1-positive NSCLC and the study population specifies ALK or ROS1 fusions. Stage IIIB and IV are explicitly included. The study population specifies lung adenocarcinoma, while the inclusion criterion uses the broader term NSCLC; adenocarcinoma is recorded as the included histology based on the study population description. Expected survival criteria are inconsistent: inclusion requires >= 6 months, while exclusion lists < 3 months. Both are preserved in the unstructured criteria; the 3-to-6-month interval is not resolved by the supplied text. The trial title says ALK-positive, but the eligibility criteria and study population also include ROS1-positive disease. ALK/ROS1-positive means either alteration; the schema can't express OR, so it is recorded in unstructured_inclusion rather than as two required_positive biomarkers.",
+  "nct_id": "NCT07633626",
+  "trial_title": "Vortioxetine for Cognitive Function in ALK-positive NSCLC Treated With Lorlatinib",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18.0,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 2,
+  "histology_included": [
+    "lung adenocarcinoma"
+  ],
+  "histology_excluded": [],
+  "stage_included": [
+    "IIIB",
+    "IV"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": null,
+  "required_prior_treatments": [
+    "Currently receiving lorlatinib as part of the standard therapeutic regimen"
+  ],
+  "excluded_prior_treatments": [
+    "Prior vortioxetine use"
+  ],
+  "brain_mets_status": null,
+  "measurable_disease_required": null,
+  "organ_function_labs": [],
+  "unstructured_inclusion": [
+    "Histologically confirmed ALK-positive or ROS1-positive NSCLC (ALK/ROS1-positive)",
+    "Documented neurocognitive adverse events (NAEs) attributable to lorlatinib",
+    "Planned initiation of vortioxetine as part of standard care",
+    "Ability to understand and sign informed consent",
+    "Expected survival >= 6 months",
+    "Ability to complete neuropsychological tests and questionnaires in Spanish",
+    "Study population described as adults with histologically confirmed advanced (stage IIIB/IV) lung adenocarcinoma harboring ALK or ROS1 fusions, currently receiving lorlatinib as standard care, and initiating vortioxetine for NAE management"
+  ],
+  "unstructured_exclusion": [
+    "Prior diagnosis of major cognitive impairment unrelated to cancer treatment",
+    "Current use of another antidepressant that cannot be discontinued",
+    "Uncontrolled major psychiatric disorder",
+    "History of uncontrolled epilepsy or recent seizures",
+    "Severe hepatic or renal impairment",
+    "Known hypersensitivity to vortioxetine",
+    "Participation in another clinical trial within the past 30 days",
+    "Inability to provide informed consent",
+    "Life expectancy < 3 months",
+    "Contraindications to vortioxetine (e.g., concomitant MAOI use)",
+    "Severe psychiatric disorders or significant cognitive impairment unrelated to lorlatinib"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

@@ -1,0 +1,113 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 20 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n1. Eligibility of Participants:\n\n   o Diagnosed histologically or cytologically with stage IIIB or stage IV non-small cell lung cancer (NSCLC) or patients with recurrence or progression following multimodal treatments (radiotherapy, surgical resection, or therapeutic chemoradiotherapy for locally advanced disease).\n   * Have undergone at least two systemic therapies for advanced NSCLC, including platinum-based chemotherapy, anti-PD-1 therapy, and/or other targeted therapies.\n2. At Least One Measurable Lesion:\n\n   o The measurable lesion must not undergo radiotherapy during the cell therapy period.\n3. Age:\n\n   o ≥20 years.\n4. Weight:\n\n   o Between 40 and 100 kg.\n5. Normal Blood Count (based on test results within 4 weeks before blood collection for cell preparation):\n\n   o White blood cells (WBC): ≥3000/mm³.\n\n   o Lymphocytes: ≥1000/mm³.\n   * Hemoglobin: ≥10 g/dL.\n   * Platelets: ≥100,000/mm³.\n6. Normal Liver and Kidney Function (based on test results within 4 weeks before blood collection for cell preparation):\n\n   * Creatinine: ≤1.25× the upper limit of normal (ULN).\n   * Total bilirubin: ≤1.5× ULN.\n   * SGOT (AST): ≤3× ULN.\n   * SGPT (ALT): ≤3× ULN.\n7. Informed Consent:\n\n   o Participants must sign the consent form.\n8. ECOG Performance Status:\n\n   o Score of 0-1.\n9. For Women of Childbearing Age:\n\n   * Must agree to use effective contraception during the trial.\n\nExclusion Criteria:\n\n1. Positive Test Results for the Following Infections:\n\n   o HCV (HCV antibody-positive).\n   * HBV (HBsAg-positive).\n   * HIV (HIV antibody-positive).\n   * HTLV (HTLV antibody-positive).\n   * Syphilis (Treponema pallidum antibody-positive).\n   * Tuberculosis (TB culture-positive).\n2. ECOG Performance Status:\n\n   o Score of 2-4.\n3. Albumin Intolerance:\n\n   o Participants who cannot tolerate albumin.\n4. Short Life Expectancy:\n\n   o Life expectancy estimated by the physician to be less than 12 weeks.\n5. Participation in Other Clinical Trials:\n\n   o Within 30 days prior to entering this trial.\n6. Pregnancy or Breastfeeding:\n\n   o Positive pregnancy test or currently breastfeeding.\n7. Other Medical Conditions:\n\n   o Immunodeficiency, severe heart or lung dysfunction, coagulation disorders, unresolved side effects from prior cancer therapy (not recovered to CTCAE grade 1), prior transplant surgery, or deemed unsuitable by the physician.\n8. Noncompliance:\n\n   o Unable to adhere to follow-up or examination procedures.\n9. Concurrent Cancer:\n\n   o Other cancers diagnosed within the past 2 years.\n10. Specific Complications:\n\n    * Brain metastases, leptomeningeal disease, or spinal cord compression.",
+  "_source": "https://clinicaltrials.gov/study/NCT07202611",
+  "_labeler": "Khushali Kothari",
+  "_notes": "At least two prior systemic therapies for advanced NSCLC are explicitly required, so prior_therapy_lines_min is 2; no maximum is stated. The wording 'including platinum-based chemotherapy, anti-PD-1 therapy, and/or other targeted therapies' does not clearly establish that every listed treatment class is mandatory, so the treatment examples are retained in unstructured_inclusion rather than represented as individually required prior treatments. Stage IIIB and stage IV are entered as separate stage tokens. NSCLC is retained as the stated histology in the raw text; no more specific histologic subtype is given. Measurable disease is required. Brain metastases, leptomeningeal disease, and spinal cord compression are explicitly excluded. Blood count and liver/kidney thresholds are represented as structured lab objects. Weight, contraception, consent, timing of laboratory tests, and the restriction on radiotherapy to the measurable lesion are retained in unstructured_inclusion because they do not map cleanly to the available structured fields. Infection exclusions are retained near-verbatim in unstructured_exclusion; no individual biomarker direction is assigned because these are infection screening tests rather than tumor biomarkers. No upper age limit is stated. manual_review_flag is false as required by the gold labeling guide; it is set automatically from the unstructured buckets by from_extracted.",
+  "nct_id": "NCT07202611",
+  "trial_title": "DC/NK Cell Therapy",
+  "overall_status": "RECRUITING",
+  "min_age_years": 20,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 1,
+  "histology_included": [],
+  "histology_excluded": [],
+  "stage_included": [
+    "IIIB",
+    "IV"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": 2,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": null,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [],
+  "brain_mets_status": "none",
+  "measurable_disease_required": true,
+  "organ_function_labs": [
+    {
+      "lab_name": "WBC",
+      "operator": ">=",
+      "value": 3000,
+      "unit": "/mm^3"
+    },
+    {
+      "lab_name": "lymphocytes",
+      "operator": ">=",
+      "value": 1000,
+      "unit": "/mm^3"
+    },
+    {
+      "lab_name": "hemoglobin",
+      "operator": ">=",
+      "value": 10,
+      "unit": "g/dL"
+    },
+    {
+      "lab_name": "platelets",
+      "operator": ">=",
+      "value": 100000,
+      "unit": "/mm^3"
+    },
+    {
+      "lab_name": "creatinine",
+      "operator": "<=",
+      "value": 1.25,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "total bilirubin",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "AST (SGOT)",
+      "operator": "<=",
+      "value": 3,
+      "unit": "x ULN"
+    },
+    {
+      "lab_name": "ALT (SGPT)",
+      "operator": "<=",
+      "value": 3,
+      "unit": "x ULN"
+    }
+  ],
+  "unstructured_inclusion": [
+    "NSCLC must be diagnosed histologically or cytologically",
+    "Patients may qualify with recurrence or progression following multimodal treatments, including radiotherapy, surgical resection, or therapeutic chemoradiotherapy for locally advanced disease",
+    "Prior systemic therapies for advanced NSCLC include platinum-based chemotherapy, anti-PD-1 therapy, and/or other targeted therapies; the exact mandatory combination is not specified",
+    "Weight between 40 and 100 kg",
+    "The measurable lesion must not undergo radiotherapy during the cell therapy period",
+    "Blood count and liver/kidney function test results must be obtained within 4 weeks before blood collection for cell preparation",
+    "Participants must sign the consent form",
+    "Women of childbearing age must agree to use effective contraception during the trial"
+  ],
+  "unstructured_exclusion": [
+    "Positive HCV antibody",
+    "Positive HBsAg",
+    "Positive HIV antibody",
+    "Positive HTLV antibody",
+    "Positive Treponema pallidum antibody",
+    "Positive tuberculosis culture",
+    "Participants who cannot tolerate albumin",
+    "Physician-estimated life expectancy less than 12 weeks",
+    "Participation in another clinical trial within 30 days prior to entering this trial",
+    "Positive pregnancy test or currently breastfeeding",
+    "Immunodeficiency",
+    "Severe heart or lung dysfunction",
+    "Coagulation disorders",
+    "Unresolved side effects from prior cancer therapy not recovered to CTCAE grade 1",
+    "Prior transplant surgery",
+    "Deemed unsuitable by the physician",
+    "Unable to adhere to follow-up or examination procedures",
+    "Other cancers diagnosed within the past 2 years",
+    "Brain metastases, leptomeningeal disease, or spinal cord compression"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

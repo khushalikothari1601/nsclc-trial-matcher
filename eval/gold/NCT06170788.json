@@ -1,0 +1,76 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n* Histologically or cytologically confirmed diagnosis of squamous or nonsquamous NSCLC\n\n  * Confirmation that epidermal growth factor receptor- (EGFR-), anaplastic lymphoma kinase- (ALK-), or proto-oncogene tyrosine-protein kinase ROS (ROS1-) directed therapy is not indicated as primary therapy\n  * Provided tumor tissue that demonstrates programmed cell death ligand 1 (PD-L1) expression in ≥50% of tumor cells as assessed by an immunohistochemistry (IHC) central laboratory\n  * An Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1 assessed within 7 days before randomization.\n  * A life expectancy of at least 3 months.\n  * Human immunodeficiency virus (HIV)-infected participants must have well controlled HIV on antiretroviral therapy (ART)\n\nExclusion Criteria:\n\n* Diagnosis of small cell lung cancer or, for mixed tumors, presence of small cell elements.\n* Has Grade ≥2 peripheral neuropathy.\n* History of documented severe dry eye syndrome, severe Meibomian gland disease and/or blepharitis, or severe corneal disease that prevents/delays corneal healing.\n* Has active inflammatory bowel disease requiring immunosuppressive medication or previous clear history of inflammatory bowel disease (eg, Crohn's disease, ulcerative colitis, or chronic diarrhea).\n* Has uncontrolled, significant cardiovascular disease or cerebrovascular disease within the 6 months preceding study intervention.\n* Received prior systemic anticancer therapy for their metastatic NSCLC.\n* Received prior therapy with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent, or with an agent directed to another stimulatory or coinhibitory T-cell receptor Note: Prior treatment with an anti-PD-1, anti-PD- L1, or anti-PD-L2 agent in the neoadjuvant or adjuvant setting for nonmetastatic resectable NSCLC is allowed as long as therapy was completed at least 12 months before diagnosis of metastatic NSCLC.\n* Received prior systemic anticancer therapy including investigational agents within 4 weeks before randomization.\n* Received radiation therapy to the lung that is \\>30 Gy within 6 months of start of study intervention.\n* Received prior radiotherapy within 2 weeks of start of study intervention, or radiation-related toxicities, requiring corticosteroids.\n* Received a live or live-attenuated vaccine within 30 days before the first dose of study intervention. Administration of killed vaccines are allowed.\n* Diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy\n* Known additional malignancy that is progressing or has required active treatment within the past 3 years.\n* Known active central nervous system (CNS) metastases and/or carcinomatous meningitis.\n* Known intolerance to sacituzumab tirumotecan or pembrolizumab and/or any of their excipients; for pembrolizumab, severe hypersensitivity (≥Grade 3) is exclusionary.\n* Known hypersensitivity to sacituzumab tirumotecan or other biologic therapy.\n* Active autoimmune disease that has required systemic treatment in the past 2 years.\n* History of (noninfectious) pneumonitis/interstitial lung disease (ILD) that required steroids or has current pneumonitis/ILD.\n* Active infection requiring systemic therapy\n* Concurrent active Hepatitis B and Hepatitis C virus infection.\n* Human immunodeficiency virus (HIV)-infected participants with a history of Kaposi's sarcoma and/or Multicentric Castleman's Disease.\n* History of allogeneic tissue/solid organ transplant.\n* Requires treatment with a strong inhibitor or inducer of Cytochrome P450 3A4 (CYP3A4) at least 14 days before the first dose of study intervention and throughout the study.",
+  "_source": "https://clinicaltrials.gov/study/NCT06170788",
+  "_labeler": "Khushali Kothari",
+  "_notes": "Judgment calls: Histology included as squamous and nonsquamous NSCLC. Small cell lung cancer classified as excluded histology. Metastatic NSCLC classified as the required disease stage. PD-L1 TPS minimum set to 50%. ECOG maximum set to 1. Treatment-naive status set to true for metastatic NSCLC because prior systemic anticancer therapy for metastatic disease is excluded. Prior neoadjuvant/adjuvant immunotherapy is allowed if completed at least 12 months before metastatic diagnosis. EGFR, ALK, and ROS1-directed therapy must not be indicated as primary therapy; this does not necessarily establish mutation-negative status. Active CNS metastases are excluded. Measurable disease and organ function laboratory requirements are not specified.",
+  "nct_id": "NCT06170788",
+  "trial_title": "Sacituzumab Tirumotecan (MK-2870) in Combination With Pembrolizumab Versus Pembrolizumab Alone in Metastatic Non-small Cell Lung Cancer (NSCLC) With Programmed Cell Death Ligand 1 (PD-L1) Tumor Proportion Score (TPS) ≥ 50% (MK-2870-007)",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18.0,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 1,
+  "histology_included": [
+    "squamous NSCLC",
+    "nonsquamous NSCLC"
+  ],
+  "histology_excluded": [
+    "small cell lung cancer",
+    "mixed tumors containing small cell elements"
+  ],
+  "stage_included": [
+    "metastatic"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [],
+  "pdl1_tps_min": 50,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": true,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [
+    "Prior anti-PD-1 therapy",
+    "Prior anti-PD-L1 therapy",
+    "Prior anti-PD-L2 therapy",
+    "Prior therapy directed at other stimulatory or coinhibitory T-cell receptors"
+  ],
+  "brain_mets_status": "treated_stable",
+  "measurable_disease_required": null,
+  "organ_function_labs": [],
+  "unstructured_inclusion": [
+    "Life expectancy of at least 3 months",
+    "ECOG performance status of 0 to 1 assessed within 7 days before randomization",
+    "HIV-infected participants must have well-controlled HIV on antiretroviral therapy (ART)",
+    "Tumor tissue must demonstrate PD-L1 expression in ≥50% of tumor cells by central laboratory immunohistochemistry (IHC)",
+    "EGFR-directed therapy not indicated as primary therapy",
+    "ALK-directed therapy not indicated as primary therapy",
+    "ROS1-directed therapy not indicated as primary therapy"
+  ],
+  "unstructured_exclusion": [
+    "Grade ≥2 peripheral neuropathy",
+    "History of severe dry eye syndrome, severe Meibomian gland disease, blepharitis, or severe corneal disease preventing or delaying corneal healing",
+    "Active inflammatory bowel disease requiring immunosuppressive medication or previous clear history of inflammatory bowel disease, including Crohn's disease, ulcerative colitis, or chronic diarrhea",
+    "Uncontrolled significant cardiovascular or cerebrovascular disease within 6 months preceding study intervention",
+    "Prior anti-PD-1, anti-PD-L1, or anti-PD-L2 treatment in the neoadjuvant or adjuvant setting for nonmetastatic resectable NSCLC is allowed if completed at least 12 months before diagnosis of metastatic NSCLC",
+    "Diagnosis of immunodeficiency or chronic systemic steroid therapy",
+    "Known additional malignancy that is progressing or has required active treatment within the past 3 years",
+    "Known intolerance to sacituzumab tirumotecan, pembrolizumab, or their excipients; severe hypersensitivity (≥Grade 3) to pembrolizumab is exclusionary",
+    "Known hypersensitivity to sacituzumab tirumotecan or other biologic therapy",
+    "Active autoimmune disease requiring systemic treatment within the past 2 years",
+    "History of noninfectious pneumonitis or interstitial lung disease (ILD) requiring steroids, or current pneumonitis/ILD",
+    "Active infection requiring systemic therapy",
+    "Concurrent active Hepatitis B and Hepatitis C virus infection",
+    "HIV-infected participants with a history of Kaposi's sarcoma and/or Multicentric Castleman's Disease",
+    "History of allogeneic tissue or solid organ transplant",
+    "Requires treatment with a strong CYP3A4 inhibitor or inducer beginning at least 14 days before the first dose and throughout the study",
+    "Known active CNS metastases and/or carcinomatous meningitis",
+    "Prior systemic anticancer therapy or investigational agents within 4 weeks before randomization",
+    "Lung radiation therapy >30 Gy within 6 months before study intervention",
+    "Radiotherapy within 2 weeks before study intervention",
+    "Radiation-related toxicities requiring corticosteroids",
+    "Live or live-attenuated vaccine within 30 days before first study dose"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

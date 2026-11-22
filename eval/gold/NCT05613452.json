@@ -1,0 +1,99 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to 80 Years.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n1. Between the ages of 18 and 80.\n2. ECOG general status score of 0-2 .\n3. Primary non-small cell lung cancer (NSCLC) confirmed by histology or cytological pathology, T1-2N0M0, stage Ia-IIa (AJCC/UICC 8th edition).\n4. The location of the tumor belongs to the peripheral type defined in this study (2cm and beyond (≥2cm) from the esophagus, main bronchial tree, spinal cord, heart, great blood vessels, brachial plexus and stomach, and 1cm and beyond (≥1cm) from the chest wall).\n5. Medically inoperable, or patient refuses surgery.\n6. Adequate organ function: 1). Blood function: absolute neutrophil count (ANC) ≥1.5 x 109/L, platelet count ≥80 x 109/L, hemoglobin ≥9 g/dL 2). Lung function: FEV1\\>25%, DLCO\\>25% 3). Cardiac function: no serious pulmonary hypertension, cardiovascular and cerebrovascular diseases, peripheral vascular diseases, serious chronic heart disease and other complications that may affect radiotherapy.4). Adequate liver function: total bilirubin \\<1.5 times the upper limit of normal value, and AST, ALT\\<2 times the upper limit of normal value. 5). Adequate renal function: serum creatinine ≤1.5 times the upper limit of normal or calculated creatinine clearance ≥50 ml /min, and urinary protein \\<2+. Patients with a baseline urinary protein level of 2+ or more should have a 24-hour urine collection and evidence of a 24-hour urinary protein level of 1g or less.\n7. Sign the informed consent.\n\nExclusion Criteria:\n\n1. Multiple primary tumors.\n2. Patient fails to comply with the treatment protocol.\n3. Complicated with other malignant tumors that have not been controlled.\n4. Patient whose particle radiotherapy plan cannot meet the minimum target dose coverage and dose volume limitation requirements, or cannot meet the dose constrains of normal tissue or organs.\n5. Chest radiation therapy or radioactive particle implantation history.\n6. Cardiac pacemakers or other internal metal prosthesis implants that may be affected by high-energy radiation or may affect the dose distribution to the radiation target area.\n7. Pregnancy (confirmed by serum or urine β-HCG test) or lactation period.\n8. HIV positive. Hepatitis virus replication phase, need to receive antiviral therapy, but because of concomitant disease cannot receive antiviral therapy. Active stage of syphilis.\n9. A history of mental illness may hinder the completion of treatment.\n10. With serious comorbidity that may interfere with radiotherapy, including: (a) Acute infectious diseases or acute active phase of chronic infection. b) Unstable angina pectoris, congestive heart failure, myocardial infarction that has been hospitalized in the past 6 months. c) Exacerbations of chronic obstructive pulmonary disease or other respiratory conditions requiring hospitalization. d) Severely impaired immune function. e) Diseases with excessive sensitivity to radiation such as ataxia telangiectasia. f) Other diseases that may affect particle radiotherapy.\n11. Other circumstances that the physician considers inappropriate to participate in clinical study.",
+  "_source": "https://clinicaltrials.gov/study/NCT05613452",
+  "_labeler": "Khushali Kothari",
+  "_notes": "The study is limited to histologically or cytologically confirmed primary NSCLC with T1-2N0M0 disease, corresponding to stage IA-IIA under AJCC/UICC 8th edition. Tumors must meet the study-specific peripheral location definition: at least 2 cm from the esophagus, main bronchial tree, spinal cord, heart, great blood vessels, brachial plexus, and stomach, and at least 1 cm from the chest wall. Patients must be medically inoperable or refuse surgery. ECOG performance status of 0-2 is permitted. Adequate organ function includes ANC >=1.5 x 10^9/L, platelets >=80 x 10^9/L, hemoglobin >=9 g/dL, FEV1 >25%, DLCO >25%, total bilirubin <1.5 x ULN, AST and ALT <2 x ULN, and either serum creatinine <=1.5 x ULN or calculated creatinine clearance >=50 mL/min. Urinary protein must be <2+; patients with baseline urinary protein >=2+ require a 24-hour urine collection showing protein <=1 g. Cardiac eligibility also requires absence of serious pulmonary hypertension, cardiovascular or cerebrovascular disease, peripheral vascular disease, serious chronic heart disease, or other complications that may affect radiotherapy. The platelet, AST, and ALT thresholds in the supplied structured organ-function fields do not match the raw eligibility text: the raw text specifies platelets >=80 x 10^9/L and AST/ALT <2 x ULN, so the structured fields should be corrected if they are intended to reflect the source exactly. Exclusions include multiple primary tumors, uncontrolled other malignancies, inability to meet particle-radiotherapy target coverage or normal-tissue dose constraints, prior chest radiotherapy or radioactive particle implantation, and pacemakers or internal metal prostheses that may be affected by high-energy radiation or alter dose distribution. Pregnancy, lactation, HIV positivity, active hepatitis virus replication when antiviral treatment is needed but cannot be given, active syphilis, and psychiatric illness that may interfere with treatment are also exclusionary. Serious comorbidities that may interfere with radiotherapy are excluded, including acute or active infections, specified recent serious cardiovascular events, COPD or other respiratory exacerbations requiring hospitalization, severely impaired immune function, radiation-hypersensitivity disorders such as ataxia telangiectasia, and other conditions affecting particle radiotherapy. The physician may exclude patients for other circumstances considered inappropriate for study participation. No molecular biomarker, prior systemic therapy, brain metastasis, or measurable disease requirement is specified in the supplied eligibility text.",
+  "nct_id": "NCT05613452",
+  "trial_title": "Carbon Ion Therapy for Peripheral Non-small Cell Lung Cancer",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18.0,
+  "max_age_years": 80.0,
+  "sex": "all",
+  "ecog_max": 2,
+  "histology_included": [
+    "NSCLC"
+  ],
+  "histology_excluded": [],
+  "stage_included": [
+    "IA",
+    "IIA",
+    "T1-2N0M0"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": null,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": null,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [
+    "Chest radiation therapy",
+    "Radioactive particle implantation"
+  ],
+  "brain_mets_status": null,
+  "measurable_disease_required": null,
+  "organ_function_labs": [
+    {
+      "lab_name": "ANC",
+      "operator": ">=",
+      "value": 1.5,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "Platelets",
+      "operator": ">=",
+      "value": 100,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "Haemoglobin",
+      "operator": ">=",
+      "value": 9.0,
+      "unit": "g/dL"
+    },
+    {
+      "lab_name": "Serum creatinine clearance",
+      "operator": ">=",
+      "value": 50,
+      "unit": "mL/min"
+    },
+    {
+      "lab_name": "Serum bilirubin",
+      "operator": "<=",
+      "value": 1.5,
+      "unit": "xULN"
+    },
+    {
+      "lab_name": "AST",
+      "operator": "<=",
+      "value": 2.5,
+      "unit": "xULN"
+    },
+    {
+      "lab_name": "ALT",
+      "operator": "<=",
+      "value": 2.5,
+      "unit": "xULN"
+    }
+  ],
+  "unstructured_inclusion": [
+    "The location of the tumor belongs to the peripheral type defined in this study (2cm and beyond (≥2cm) from the esophagus, main bronchial tree, spinal cord, heart, great blood vessels, brachial plexus and stomach, and 1cm and beyond (≥1cm) from the chest wall).",
+    "Adequate renal function: serum creatinine ≤1.5 times the upper limit of normal or calculated creatinine clearance ≥50 ml /min, and urinary protein <2+. Patients with a baseline urinary protein level of 2+ or more should have a 24-hour urine collection and evidence of a 24-hour urinary protein level of 1g or less.",
+    "Sign the informed consent"
+  ],
+  "unstructured_exclusion": [
+    "Multiple primary tumors.",
+    "Patient fails to comply with the treatment protocol.",
+    "Complicated with other malignant tumors that have not been controlled.",
+    "Patient whose particle radiotherapy plan cannot meet the minimum target dose coverage and dose volume limitation requirements, or cannot meet the dose constrains of normal tissue or organs.",
+    "Cardiac pacemakers or other internal metal prosthesis implants that may be affected by high-energy radiation or may affect the dose distribution to the radiation target area.",
+    "Pregnancy (confirmed by serum or urine β-HCG test) or lactation period.",
+    "HIV positive. Hepatitis virus replication phase, need to receive antiviral therapy, but because of concomitant disease cannot receive antiviral therapy. Active stage of syphilis.",
+    "A history of mental illness may hinder the completion of treatment.",
+    "With serious comorbidity that may interfere with radiotherapy, including: (a) Acute infectious diseases or acute active phase of chronic infection. b) Unstable angina pectoris, congestive heart failure, myocardial infarction that has been hospitalized in the past 6 months. c) Exacerbations of chronic obstructive pulmonary disease or other respiratory conditions requiring hospitalization. d) Severely impaired immune function. e) Diseases with excessive sensitivity to radiation such as ataxia telangiectasia. f) Other diseases that may affect particle radiotherapy.",
+    "Other circumstances that the physician considers inappropriate to participate in clinical study."
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}

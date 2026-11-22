@@ -1,0 +1,15 @@
+{
+  "_raw_eligibility_text": "Inclusion: Age >= 18. ECOG 0-1. Stage IIIB or IV NSCLC, adenocarcinoma. Measurable disease per RECIST. Exclusion: EGFR-positive tumors. Active autoimmune disease. Prior organ transplant.",
+  "_source": "synthetic for scaffold test",
+  "_labeler": "khushali",
+  "nct_id": "NCT_TEST01",
+  "trial_title": "Synthetic NSCLC trial",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18,
+  "ecog_max": 1,
+  "stage_included": ["IIIB", "IV"],
+  "histology_included": ["adenocarcinoma"],
+  "measurable_disease_required": true,
+  "biomarkers": [{"gene": "EGFR", "status": "excluded_if_positive"}],
+  "unstructured_exclusion": ["Active autoimmune disease", "Prior organ transplant"]
+}

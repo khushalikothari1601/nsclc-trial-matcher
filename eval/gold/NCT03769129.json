@@ -1,0 +1,103 @@
+{
+  "_raw_eligibility_text": "Ages Eligible for Study: 18 Years to no upper limit.\nSexes Eligible for Study: ALL.\nAccepts Healthy Volunteers: No.\n\nInclusion Criteria:\n\n1. Pathologically diagnosed IIIB or IV non-small cell lung cancer.\n2. Previously accepted first-line standard treatment failure or recurrence\n3. At least one measurable lesion.\n4. The patient has not received any other anti-cancer treatment within four weeks.\n5. Any gender, age ≥18 years\n6. ECOG PS : 0-2 points\n7. Expected survival ≥ 6 months\n8. The level of organ function meets the following criteria.\n\n(1) subject to the standard blood test: ANC ≥ 1.5×109 / L, PLT ≥ 50×109 / L, Hb ≥ 90g/L.\n\n(2) biochemical tests must meet the following criteria: TBIL\\<1.5×ULN, ALT, AST \\<2.5×ULN ( if liver metastasis ALT, AST can be \\<5×ULN), BUN, and Cr ≤ 1×ULN).\n\n9\\. Female patients in child bearing period must have evidence of negative pregnancy test, and agree to take effective contraceptive measures until 6months after therapy.\n\n10\\. Subjects volunteered to join the study, signed informed consent, good compliance, with follow-up.\n\nExclusion Criteria:\n\n1. Patients with two or more kinds of tumors.\n2. Patients with active viral or bacterial infection, and have failed to be controlled by anti-infective treatment.\n3. Patients with seropositive response of Human immunodeficiency virus (HIV) and syphilis, or fail to control the hepatitis B virus or hepatitis C virus infection.\n4. Patients with active rheumatic diseases, organ transplantation and other diseases affecting the immune system seriously.\n5. Patients with severe heart and lung dysfunction.\n6. Patients with severe chronic diseases of kidney, liver and other important organs.\n7. Patients with any other serious illness that the investigators consider it will may affect the patient's treatments, follow-up or assessment, including any uncontrolled clinically significant neurological or psychiatric disorders, immunoregulatory diseases, metabolic diseases, infectious diseases and so on.\n8. Patients who take part in clinical trials of other drugs or biological therapy at present or within 30 days before enrollment.\n9. Patients who need long-term use of immunosuppressive drugs or patients who are undergoing treatment of autoimmune diseases.\n10. Patients who need long-term use of glucocorticoid.\n11. Women patients in gestation period or suckling period.",
+  "_source": "https://clinicaltrials.gov/study/NCT03769129",
+  "_labeler": "Khushali Kothari",
+  "_notes": "",
+  "nct_id": "NCT03769129",
+  "trial_title": "Evaluating the Safety and Efficacy of Pembrolizumab Combined With MWA for Advanced NSCLC",
+  "overall_status": "RECRUITING",
+  "min_age_years": 18.0,
+  "max_age_years": null,
+  "sex": "all",
+  "ecog_max": 2,
+  "histology_included": [
+    "NSCLC"
+  ],
+  "histology_excluded": [],
+  "stage_included": [
+    "IIIB",
+    "IV"
+  ],
+  "stage_excluded": [],
+  "biomarkers": [],
+  "pdl1_tps_min": null,
+  "pdl1_tps_max": null,
+  "prior_therapy_lines_min": 1,
+  "prior_therapy_lines_max": null,
+  "treatment_naive_required": null,
+  "required_prior_treatments": [],
+  "excluded_prior_treatments": [],
+  "brain_mets_status": null,
+  "measurable_disease_required": null,
+  "organ_function_labs": [
+    {
+      "lab_name": "ANC",
+      "operator": ">=",
+      "value": 1.5,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "PLT",
+      "operator": ">=",
+      "value": 50,
+      "unit": "x10^9/L"
+    },
+    {
+      "lab_name": "Hb",
+      "operator": ">=",
+      "value": 90,
+      "unit": "g/L"
+    },
+    {
+      "lab_name": "TBIL",
+      "operator": "<",
+      "value": 1.5,
+      "unit": "xULN"
+    },
+    {
+      "lab_name": "ALT",
+      "operator": "<",
+      "value": 2.5,
+      "unit": "xULN"
+    },
+    {
+      "lab_name": "AST",
+      "operator": "<",
+      "value": 2.5,
+      "unit": "xULN"
+    },
+    {
+      "lab_name": "BUN",
+      "operator": "<=",
+      "value": 1,
+      "unit": "xULN"
+    },
+    {
+      "lab_name": "Cr",
+      "operator": "<=",
+      "value": 1,
+      "unit": "xULN"
+    }
+  ],
+  "unstructured_inclusion": [
+    "Previously accepted first-line standard treatment failure or recurrence",
+    "At least one measurable lesion.",
+    "Expected survival ≥ 6 months"
+  ],
+  "unstructured_exclusion": [
+    "Patients with two or more kinds of tumors",
+    "Patients with active viral or bacterial infection, and have failed to be controlled by anti-infective treatment",
+    "Patients with seropositive response of Human immunodeficiency virus (HIV) and syphilis, or fail to control the hepatitis B virus or hepatitis C virus infection",
+    "Patients with active rheumatic diseases, organ transplantation and other diseases affecting the immune system seriously.",
+    "Patients with severe heart and lung dysfunction.",
+    "Patients with severe chronic diseases of kidney, liver and other important organs.",
+    "Patients with any other serious illness that the investigators consider it will may affect the patient's treatments, follow-up or assessment, including any uncontrolled clinically significant neurological or psychiatric disorders, immunoregulatory diseases, metabolic diseases, infectious diseases and so on.",
+    "Patients who take part in clinical trials of other drugs or biological therapy at present or within 30 days before enrollment.",
+    "Patients who need long-term use of immunosuppressive drugs or patients who are undergoing treatment of autoimmune diseases.",
+    "Patients who need long-term use of glucocorticoid.",
+    "Women patients in gestation period or suckling period.",
+    "The patient has not received any other anti-cancer treatment within four weeks"
+  ],
+  "parse_confidence": null,
+  "manual_review_flag": false
+}
